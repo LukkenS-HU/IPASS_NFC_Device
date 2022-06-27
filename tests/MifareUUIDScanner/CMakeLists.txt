@@ -1,0 +1,2 @@
+HWLIB_AddExecutable(Test_Mifare_UUID_Scanner main.cpp)
+HWLIB_TargetLinkLibraries(Test_Mifare_UUID_Scanner PN532 PN532-hwlib PNHelpers)

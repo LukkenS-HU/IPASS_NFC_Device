@@ -1,0 +1,2 @@
+HWLIB_AddExecutable(Chip_Info_Test main.cpp)
+HWLIB_TargetLinkLibraries(Chip_Info_Test PN532 PN532-hwlib PNHelpers)

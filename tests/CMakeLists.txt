@@ -1,0 +1,3 @@
+add_subdirectory(MifareUUIDScanner)
+add_subdirectory(ChipInfoTest)
+add_subdirectory(CardEmulator)
