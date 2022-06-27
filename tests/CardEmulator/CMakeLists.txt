@@ -1,0 +1,2 @@
+HWLIB_AddExecutable(Test_Card_Emulator main.cpp)
+HWLIB_TargetLinkLibraries(Test_Card_Emulator PN532 PN532-hwlib PNHelpers)

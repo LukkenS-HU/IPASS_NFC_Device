@@ -1,7 +1,15 @@
 [submodule "pico-sdk"]
 	path = pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk
-
-[submodule "PN532Drv"]
-    path = lib/Drivers/PN532
-    url = https://github.com/stolij/PN532Drv
+[submodule "lib/Drivers/PN532"]
+	path = lib/Drivers/PN532
+	url = https://github.com/Stolij/PN532Drv
+[submodule "lib/Utilities"]
+    path = lib/Utilities
+    url = https://github.com/Stolij/Utilities
+[submodule "lib/Drivers/PN532-hwlib"]
+	path = lib/Drivers/PN532-hwlib
+	url = https://github.com/LukkenS-HU/PN532-hwlib
+[submodule "lib/hwlib"]
+	path = lib/hwlib
+	url = https://github.com/LukkenS-HU/hwlib.git
